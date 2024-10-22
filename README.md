@@ -1,6 +1,6 @@
 # ProjetoFazendaUrbana
 
-![Pitaya](https://www.google.com/url?sa=i&url=https%3A%2F%2Fmixologynews.com.br%2F04%2F2013%2Fhortifruti%2Fpitaya%2F&psig=AOvVaw2ZYyw0vtB5EP0ulLDrB6L0&ust=1729694920238000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKjdxu2dookDFQAAAAAdAAAAABAE)
+![Pitaya]([https://www.google.com/url?sa=i&url=https%3A%2F%2Fmixologynews.com.br%2F04%2F2013%2Fhortifruti%2Fpitaya%2F&psig=AOvVaw2ZYyw0vtB5EP0ulLDrB6L0&ust=1729694920238000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKjdxu2dookDFQAAAAAdAAAAABAE](https://mixologynews.com.br/wp-content/uploads/2013/04/pitaya.jpg))
 
 **Sistema de Gerenciamento de Fazenda Urbana**  
 *Aplicativo Desktop em C# com Banco de Dados SQL*
