@@ -8,7 +8,7 @@
 
 
 **Sistema de Gerenciamento de Fazenda Urbana**  
- ***************************************Aplicativo Desktop em C# com Banco de Dados SQL*
+*Aplicativo Desktop em C# com Banco de Dados SQL*
 
 <div style="display: flex; justify-content: space-around;">
   <img src="https://image.tuasaude.com/media/article/ew/ks/beneficios-da-pitaya_2077_l.jpg" alt="Pitaya Vermelha" width="250"/>
