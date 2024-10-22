@@ -11,7 +11,7 @@
 *Aplicativo Desktop em C# com Banco de Dados SQL*
 
 <div style="display: flex; justify-content: space-around;">
-  <img src="https://image.tuasaude.com/media/article/ew/ks/beneficios-da-pitaya_2077_l.jpg" alt="Pitaya Vermelha" width="250"/>
+  <img src="https://media.istockphoto.com/id/475574472/pt/foto/salada-de-frutas-ex%C3%B3ticas.jpg?s=612x612&w=0&k=20&c=QhjmyNRWSxzKtcJvBCTxU91gf_YwWxTAfYgWygE7GMM=" alt="Pitaya Vermelha" width="250"/>
   <img src="https://www.mundoboaforma.com.br/wp-content/uploads/2022/08/pitayas-amarelas.jpg" alt="Pitaya Amarela" width="250"/>
   <img src="https://images.tcdn.com.br/img/img_prod/639333/10_mudas_pitaya_polpa_branca_embrapa_brs_lua_do_cerrado_arredondada_autopolinizavel_28_1_20200322175850.jpg" alt="Pitaya Branca" width="300"/>
 </div>
