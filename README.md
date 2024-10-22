@@ -6,7 +6,7 @@
 <div style="display: flex; justify-content: space-around;">
   <img src="https://image.tuasaude.com/media/article/ew/ks/beneficios-da-pitaya_2077_l.jpg" alt="Pitaya Vermelha" width="300"/>
   <img src="https://www.mundoboaforma.com.br/wp-content/uploads/2022/08/pitayas-amarelas.jpg" alt="Pitaya Amarela" width="300"/>
-  <img src="https://images.tcdn.com.br/img/img_prod/639333/10_mudas_pitaya_polpa_branca_embrapa_brs_lua_do_cerrado_arredondada_autopolinizavel_28_1_20200322175850.jpg" alt="Pitaya Branca" width="300"/>
+  <img src="https://images.tcdn.com.br/img/img_prod/639333/10_mudas_pitaya_polpa_branca_embrapa_brs_lua_do_cerrado_arredondada_autopolinizavel_28_1_20200322175850.jpg" alt="Pitaya Branca" width="350"/>
 </div>
 
 
