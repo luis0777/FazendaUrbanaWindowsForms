@@ -1,4 +1,5 @@
-# ProjetoFazendaUrbana
+# ProjetoFazendaUrbana <img src="https://png.pngtree.com/png-vector/20240309/ourmid/pngtree-cute-cartoon-farmer-character-generative-ai-png-image_11918582.png" alt="Farmer Icon" width="30"/>
+
 
 **Sistema de Gerenciamento de Fazenda Urbana**  
 *Aplicativo Desktop em C# com Banco de Dados SQL*
