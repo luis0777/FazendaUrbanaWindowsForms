@@ -1,4 +1,4 @@
-<div style="text-align: center; font-size: 48px; margin-bottom: 20px;">
+<div style="text-align: center; font-size: 200px;">
   <img src="https://png.pngtree.com/png-vector/20240309/ourmid/pngtree-cute-cartoon-farmer-character-generative-ai-png-image_11918582.png" alt="Farmer Icon" width="80" style="vertical-align: middle;"/> 
   <strong>Projeto Fazenda Urbana</strong> 
   <img src="https://png.pngtree.com/png-vector/20240309/ourmid/pngtree-cute-cartoon-farmer-character-generative-ai-png-image_11918582.png" alt="Farmer Icon" width="80" style="vertical-align: middle;"/>
@@ -36,5 +36,3 @@ O **ProjetoFazendaUrbana** é um sistema inovador e sustentável desenvolvido pa
 1. Clone este repositório.
 2. Configure o banco de dados no SQL Server.
 3. Compile o projeto no Visual Studio e execute o aplicativo.
-
-
