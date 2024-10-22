@@ -1,5 +1,9 @@
-<img src="https://png.pngtree.com/png-vector/20240309/ourmid/pngtree-cute-cartoon-farmer-character-generative-ai-png-image_11918582.png" alt="Farmer Icon" width="80"/> 
-# ProjetoFazendaUrbana <img src="https://png.pngtree.com/png-vector/20240309/ourmid/pngtree-cute-cartoon-farmer-character-generative-ai-png-image_11918582.png" alt="Farmer Icon" width="80"/>
+<p>
+  <img src="https://png.pngtree.com/png-vector/20240309/ourmid/pngtree-cute-cartoon-farmer-character-generative-ai-png-image_11918582.png" alt="Farmer Icon" width="30" style="vertical-align:middle;"/> 
+  <strong>ProjetoFazendaUrbana</strong> 
+  <img src="https://png.pngtree.com/png-vector/20240309/ourmid/pngtree-cute-cartoon-farmer-character-generative-ai-png-image_11918582.png" alt="Farmer Icon" width="30" style="vertical-align:middle;"/>
+</p>
+
 
 
 **Sistema de Gerenciamento de Fazenda Urbana**  
