@@ -1,7 +1,5 @@
 # ProjetoFazendaUrbana
 
-![Capa do Projeto](https://www.google.com/url?sa=i&url=https%3A%2F%2Fmixologynews.com.br%2F04%2F2013%2Fhortifruti%2Fpitaya%2F&psig=AOvVaw2ZYyw0vtB5EP0ulLDrB6L0&ust=1729694920238000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKjdxu2dookDFQAAAAAdAAAAABAE)
-
 **Sistema de Gerenciamento de Fazenda Urbana**  
 *Aplicativo Desktop em C# com Banco de Dados SQL*
 
@@ -25,10 +23,4 @@ O **ProjetoFazendaUrbana** é um sistema inovador e sustentável desenvolvido pa
 2. Configure o banco de dados no SQL Server.
 3. Compile o projeto no Visual Studio e execute o aplicativo.
 
-## Logotipo
-Se aplicável, insira aqui o logotipo da empresa ou do projeto.
 
-## Imagem Representativa
-A imagem abaixo combina elementos de agricultura urbana com tecnologia, refletindo a sustentabilidade do projeto.
-
-![Agricultura Urbana e Tecnologia](link_para_imagem_representativa)
