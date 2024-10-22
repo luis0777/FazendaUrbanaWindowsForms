@@ -3,7 +3,8 @@
 **Sistema de Gerenciamento de Fazenda Urbana**  
 *Aplicativo Desktop em C# com Banco de Dados SQL*
 
-![Pitaya](https://mixologynews.com.br/wp-content/uploads/2013/04/pitaya.jpg)
+<img src="https://mixologynews.com.br/wp-content/uploads/2013/04/pitaya.jpg" alt="Pitaya" width="400"/>
+
 
 ## Descrição
 
