@@ -1,4 +1,4 @@
-<div style="text-align: center; font-size: 50px;">
+<div style="text-align: center; font-size: 200px;">
   <img src="https://png.pngtree.com/png-vector/20240309/ourmid/pngtree-cute-cartoon-farmer-character-generative-ai-png-image_11918582.png" alt="Farmer Icon" width="80" style="vertical-align: middle;"/> 
   <strong>Projeto Fazenda Urbana</strong> 
   <img src="https://png.pngtree.com/png-vector/20240309/ourmid/pngtree-cute-cartoon-farmer-character-generative-ai-png-image_11918582.png" alt="Farmer Icon" width="80" style="vertical-align: middle;"/>
