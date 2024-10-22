@@ -1,3 +1,4 @@
+<img src="https://png.pngtree.com/png-vector/20240309/ourmid/pngtree-cute-cartoon-farmer-character-generative-ai-png-image_11918582.png" alt="Farmer Icon" width="80"/> 
 # ProjetoFazendaUrbana <img src="https://png.pngtree.com/png-vector/20240309/ourmid/pngtree-cute-cartoon-farmer-character-generative-ai-png-image_11918582.png" alt="Farmer Icon" width="80"/>
 
 
