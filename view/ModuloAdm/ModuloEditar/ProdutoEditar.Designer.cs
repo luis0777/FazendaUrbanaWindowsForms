@@ -159,6 +159,7 @@
             this.textValorBranca.Size = new System.Drawing.Size(18, 19);
             this.textValorBranca.TabIndex = 72;
             this.textValorBranca.Text = "0";
+            this.textValorBranca.Click += new System.EventHandler(this.textValorBranca_Click);
             // 
             // label11
             // 
@@ -493,7 +494,7 @@
             this.pictureBox4.TabIndex = 34;
             this.pictureBox4.TabStop = false;
             // 
-            // AlterarProduto
+            // ProdutoEditar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -503,7 +504,7 @@
             this.Controls.Add(this.panel1);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "AlterarProduto";
+            this.Name = "ProdutoEditar";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AlterarProduto";
             this.panel1.ResumeLayout(false);

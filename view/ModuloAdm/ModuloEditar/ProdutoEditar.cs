@@ -1,14 +1,8 @@
 ﻿using ProjetoFazendaUrbana.conexao;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Data.SqlClient;
 using System.Drawing;
 using System.Globalization;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace ProjetoFazendaUrbana.view
@@ -102,10 +96,6 @@ namespace ProjetoFazendaUrbana.view
         // Outras funções e eventos...
 
         private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-        }
-
-        private void label12_Click(object sender, EventArgs e)
         {
         }
 
@@ -472,6 +462,26 @@ namespace ProjetoFazendaUrbana.view
         }
 
         private void textRemBranca_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtEstoqueBranca_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtEstoqueVermelha_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtEstoqueAmarela_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textValorBranca_Click(object sender, EventArgs e)
         {
 
         }

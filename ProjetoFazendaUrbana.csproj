@@ -131,16 +131,16 @@
     <Compile Include="view\ModuloPagamento\CartaoPagamento.Designer.cs">
       <DependentUpon>CartaoPagamento.cs</DependentUpon>
     </Compile>
-    <Compile Include="view\ModuloRelatorio\ClienteRelatorio.cs">
+    <Compile Include="view\ModuloAdm\ModuloRelatorio\ClienteRelatorio.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="view\ModuloRelatorio\ClienteRelatorio.Designer.cs">
+    <Compile Include="view\ModuloAdm\ModuloRelatorio\ClienteRelatorio.Designer.cs">
       <DependentUpon>ClienteRelatorio.cs</DependentUpon>
     </Compile>
-    <Compile Include="view\ModuloRelatorio\FuncionarioRelatorio.cs">
+    <Compile Include="view\ModuloAdm\ModuloRelatorio\FuncionarioRelatorio.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="view\ModuloRelatorio\FuncionarioRelatorio.Designer.cs">
+    <Compile Include="view\ModuloAdm\ModuloRelatorio\FuncionarioRelatorio.Designer.cs">
       <DependentUpon>FuncionarioRelatorio.cs</DependentUpon>
     </Compile>
     <Compile Include="view\ModuloAdm\LoginAdm.cs">
@@ -162,10 +162,10 @@
     <Compile Include="view\ModuloCliente\LoginCliente.Designer.cs">
       <DependentUpon>LoginCliente.cs</DependentUpon>
     </Compile>
-    <Compile Include="view\ModuloRelatorio\MateriaPrimaRelatorio.cs">
+    <Compile Include="view\ModuloAdm\ModuloRelatorio\MateriaPrimaRelatorio.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="view\ModuloRelatorio\MateriaPrimaRelatorio.Designer.cs">
+    <Compile Include="view\ModuloAdm\ModuloRelatorio\MateriaPrimaRelatorio.Designer.cs">
       <DependentUpon>MateriaPrimaRelatorio.cs</DependentUpon>
     </Compile>
     <Compile Include="view\ModuloPagamento\ResumoPagamento.cs">
@@ -180,10 +180,10 @@
     <Compile Include="view\ModuloPagamento\PixPagamento.Designer.cs">
       <DependentUpon>PixPagamento.cs</DependentUpon>
     </Compile>
-    <Compile Include="view\ModuloRelatorio\ProdutoRelatorio.cs">
+    <Compile Include="view\ModuloAdm\ModuloRelatorio\ProdutoRelatorio.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="view\ModuloRelatorio\ProdutoRelatorio.Designer.cs">
+    <Compile Include="view\ModuloAdm\ModuloRelatorio\ProdutoRelatorio.Designer.cs">
       <DependentUpon>ProdutoRelatorio.cs</DependentUpon>
     </Compile>
     <Compile Include="view\ModuloApresentação\QuemSomos.cs">
@@ -198,10 +198,10 @@
     <Compile Include="view\ModuloVenda\TelaVendas.Designer.cs">
       <DependentUpon>TelaVendas.cs</DependentUpon>
     </Compile>
-    <Compile Include="view\ModuloRelatorio\VendaRelatorio.cs">
+    <Compile Include="view\ModuloAdm\ModuloRelatorio\VendaRelatorio.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="view\ModuloRelatorio\VendaRelatorio.Designer.cs">
+    <Compile Include="view\ModuloAdm\ModuloRelatorio\VendaRelatorio.Designer.cs">
       <DependentUpon>VendaRelatorio.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -225,10 +225,10 @@
     <EmbeddedResource Include="view\ModuloPagamento\CartaoPagamento.resx">
       <DependentUpon>CartaoPagamento.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="view\ModuloRelatorio\ClienteRelatorio.resx">
+    <EmbeddedResource Include="view\ModuloAdm\ModuloRelatorio\ClienteRelatorio.resx">
       <DependentUpon>ClienteRelatorio.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="view\ModuloRelatorio\FuncionarioRelatorio.resx">
+    <EmbeddedResource Include="view\ModuloAdm\ModuloRelatorio\FuncionarioRelatorio.resx">
       <DependentUpon>FuncionarioRelatorio.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="view\ModuloAdm\LoginAdm.resx">
@@ -240,7 +240,7 @@
     <EmbeddedResource Include="view\ModuloCliente\LoginCliente.resx">
       <DependentUpon>LoginCliente.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="view\ModuloRelatorio\MateriaPrimaRelatorio.resx">
+    <EmbeddedResource Include="view\ModuloAdm\ModuloRelatorio\MateriaPrimaRelatorio.resx">
       <DependentUpon>MateriaPrimaRelatorio.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="view\ModuloPagamento\ResumoPagamento.resx">
@@ -249,7 +249,7 @@
     <EmbeddedResource Include="view\ModuloPagamento\PixPagamento.resx">
       <DependentUpon>PixPagamento.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="view\ModuloRelatorio\ProdutoRelatorio.resx">
+    <EmbeddedResource Include="view\ModuloAdm\ModuloRelatorio\ProdutoRelatorio.resx">
       <DependentUpon>ProdutoRelatorio.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="view\ModuloApresentação\QuemSomos.resx">
@@ -258,7 +258,7 @@
     <EmbeddedResource Include="view\ModuloVenda\TelaVendas.resx">
       <DependentUpon>TelaVendas.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="view\ModuloRelatorio\VendaRelatorio.resx">
+    <EmbeddedResource Include="view\ModuloAdm\ModuloRelatorio\VendaRelatorio.resx">
       <DependentUpon>VendaRelatorio.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />

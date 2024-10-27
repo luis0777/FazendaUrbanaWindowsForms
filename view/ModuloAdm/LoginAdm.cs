@@ -69,6 +69,7 @@ namespace ProjetoFazendaUrbana.view
                 {
                     if(textUsuario.Text == "admin" && textSenha.Text == "5891")
                     {
+                        MessageBox.Show("Login bem sucedido", "SUCESSO!!!", MessageBoxButtons.OK, MessageBoxIcon.Information);
                         TelaAdm menu = new TelaAdm();
                         menu.Show();
                         this.Hide();

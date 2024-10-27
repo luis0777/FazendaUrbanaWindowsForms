@@ -1,15 +1,9 @@
-﻿using Mysqlx;
-using ProjetoFazendaUrbana.conexao;
+﻿using ProjetoFazendaUrbana.conexao;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
 using System.Data.SqlClient;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
+
 
 namespace ProjetoFazendaUrbana.view
 {
@@ -22,48 +16,7 @@ namespace ProjetoFazendaUrbana.view
         public TelaAdm()
         {
             InitializeComponent();
-        }
-        private void textFechar_Click(object sender, EventArgs e)
-        {
-           
-
-            //fechar
-            Application.Exit();
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textInicio_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void label19_Click(object sender, EventArgs e)
-        {
-
+            
         }
 
         private void label1_Click_1(object sender, EventArgs e)
@@ -80,11 +33,6 @@ namespace ProjetoFazendaUrbana.view
 
         }
 
-        private void buttonCloseList_Click(object sender, EventArgs e)
-        {
-           
-        }
-
         private void label4_Click(object sender, EventArgs e)
         {
             
@@ -92,19 +40,10 @@ namespace ProjetoFazendaUrbana.view
             menu.Show();
             this.Close();
 
-        }               
-
-
-
-        private void listViewProducts_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
+        }  
 
         private void textInicio_Click_1(object sender, EventArgs e)
-        {
-            // Obtém a posição do Label
-
+        {     
             CadastroCliente menu = new CadastroCliente();
             menu.Show();
             this.Hide();
@@ -160,7 +99,7 @@ namespace ProjetoFazendaUrbana.view
                             textNome.Clear();
                             cm.Parameters.Clear();
 
-                            cn.Close(); //conexao fechada
+                            cn.Close(); 
 
                         }
                     }
@@ -201,7 +140,7 @@ namespace ProjetoFazendaUrbana.view
                         MessageBox.Show("ID não encontrado. Por favor, forneça um ID válido.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     }
 
-                    cn.Close(); //conexao fechada
+                    cn.Close(); 
                 }
                 catch (Exception erro)
                 {
@@ -229,7 +168,7 @@ namespace ProjetoFazendaUrbana.view
 
                     cn.Open();
                     string strSQL = "INSERT INTO [dbo].[Fornecedor] (NomeEmpresa, CNPJ, adubo, QuantidadeAdubo, agrotoxico, QuantidadeAgrotoxico, muda, QuantidadeMuda) VALUES (@NomeEmpresa, @CNPJ, @adubo, @QuantidadeAdubo, @agrotoxico, @QuantidadeAgrotoxico, @muda, @QuantidadeMuda)";
-                    cm.Parameters.Clear(); // Limpa os parâmetros antes de adicionar novos
+                    cm.Parameters.Clear(); 
                     cm.Parameters.Add("@NomeEmpresa", SqlDbType.VarChar).Value = textEmpresa.Text;
                     cm.Parameters.Add("@CNPJ", SqlDbType.VarChar).Value = textCNPJ.Text;
                     cm.Parameters.Add("@adubo", SqlDbType.VarChar).Value = textAdubo.Text;
@@ -255,7 +194,7 @@ namespace ProjetoFazendaUrbana.view
                     textQAgrotoxico.Clear();
                     textMuda.Items.Clear();
                     textQMuda.Clear ();
-                    cn.Close(); //conexao fechada
+                    cn.Close(); 
                 }
                 catch (Exception erro)
                 {
@@ -293,7 +232,7 @@ namespace ProjetoFazendaUrbana.view
                         MessageBox.Show("ID não encontrado. Por favor, forneça um ID válido.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     }
 
-                    cn.Close(); //conexao fechada
+                    cn.Close(); 
                 }
                 catch (Exception erro)
                 {
@@ -303,28 +242,11 @@ namespace ProjetoFazendaUrbana.view
             }
         }
 
-       
-
-        private void button7_Click(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void listViewFornecedor_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void button3_Click(object sender, EventArgs e)
         {
             FuncionarioEditar menu = new FuncionarioEditar();
             menu.Show();
             this.Close();
-        }
-
-        private void button8_Click(object sender, EventArgs e)
-        {
-            
         }
 
         private void label5_Click_1(object sender, EventArgs e)
@@ -359,7 +281,7 @@ namespace ProjetoFazendaUrbana.view
 
         private void AdmTela1_Load(object sender, EventArgs e)
         {
-
+            VerificarEstoque();
         }
 
         private void textBoxLetras_KeyPress(object sender, KeyPressEventArgs e)
@@ -430,6 +352,68 @@ namespace ProjetoFazendaUrbana.view
         }
 
         private void label25_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void VerificarEstoque()
+        {
+            try
+            {
+                cn.Open();
+
+                string strSQL = "SELECT Produto, quantidade FROM produtos WHERE quantidade < 50";
+                cm.Connection = cn.Open();
+                cm.CommandText = strSQL;
+
+                dt = cm.ExecuteReader();
+
+                
+
+                bool estoqueBaixo = false;
+                string mensagem = "";
+
+                while (dt.Read())
+                {
+                    string tipoPitaya = dt["Produto"].ToString();
+                    int quantidade = Convert.ToInt32(dt["quantidade"]);
+
+                    mensagem += $"\n{tipoPitaya} está abaixo de 50 unidades (atualmente {quantidade}).\n";
+                    estoqueBaixo = true;
+                }
+
+                dt.Close();
+                cn.Close();
+
+                // Armazene a mensagem em uma variável de classe
+                this.estoqueMensagem = mensagem; // Armazena a mensagem para uso posterior
+
+                // Ajusta a visibilidade do pictureMensagem com base no estoque
+                pictureMensagem.Visible = estoqueBaixo; // Exibe ou oculta conforme necessário
+            }
+            catch (Exception erro)
+            {
+                MessageBox.Show(erro.Message, "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                cn.Close();
+            }
+        }
+
+        // Variável de classe para armazenar a mensagem
+        private string estoqueMensagem = "";
+        private void pictureAviso_Click(object sender, EventArgs e)
+        {
+            if (!string.IsNullOrEmpty(estoqueMensagem))
+            {
+                MessageBox.Show(estoqueMensagem, "Estoque Baixo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+            else
+            {
+                MessageBox.Show("Todas as quantidades estão acima de 50.", "Informação", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+
+        }
+
+        private void pictureMensagem_Click(object sender, EventArgs e)
         {
 
         }

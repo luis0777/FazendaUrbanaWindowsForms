@@ -81,6 +81,8 @@
             this.label24 = new System.Windows.Forms.Label();
             this.label25 = new System.Windows.Forms.Label();
             this.textInicio = new System.Windows.Forms.Label();
+            this.pictureAviso = new System.Windows.Forms.PictureBox();
+            this.pictureMensagem = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel1.SuspendLayout();
             this.panel4.SuspendLayout();
@@ -88,6 +90,8 @@
             this.panel3.SuspendLayout();
             this.panel5.SuspendLayout();
             this.panel6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureAviso)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureMensagem)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox2
@@ -691,6 +695,32 @@
             this.textInicio.Text = "Inicio";
             this.textInicio.Click += new System.EventHandler(this.textInicio_Click_1);
             // 
+            // pictureAviso
+            // 
+            this.pictureAviso.BackColor = System.Drawing.Color.Transparent;
+            this.pictureAviso.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureAviso.BackgroundImage")));
+            this.pictureAviso.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureAviso.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureAviso.Location = new System.Drawing.Point(-6, 79);
+            this.pictureAviso.Name = "pictureAviso";
+            this.pictureAviso.Size = new System.Drawing.Size(100, 50);
+            this.pictureAviso.TabIndex = 32;
+            this.pictureAviso.TabStop = false;
+            this.pictureAviso.Click += new System.EventHandler(this.pictureAviso_Click);
+            // 
+            // pictureMensagem
+            // 
+            this.pictureMensagem.BackColor = System.Drawing.Color.Transparent;
+            this.pictureMensagem.Image = ((System.Drawing.Image)(resources.GetObject("pictureMensagem.Image")));
+            this.pictureMensagem.Location = new System.Drawing.Point(47, 79);
+            this.pictureMensagem.Name = "pictureMensagem";
+            this.pictureMensagem.Size = new System.Drawing.Size(19, 14);
+            this.pictureMensagem.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureMensagem.TabIndex = 33;
+            this.pictureMensagem.TabStop = false;
+            this.pictureMensagem.Visible = false;
+            this.pictureMensagem.Click += new System.EventHandler(this.pictureMensagem_Click);
+            // 
             // TelaAdm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -699,6 +729,8 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1200, 700);
+            this.Controls.Add(this.pictureMensagem);
+            this.Controls.Add(this.pictureAviso);
             this.Controls.Add(this.textInicio);
             this.Controls.Add(this.label25);
             this.Controls.Add(this.label24);
@@ -732,6 +764,8 @@
             this.panel5.PerformLayout();
             this.panel6.ResumeLayout(false);
             this.panel6.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureAviso)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureMensagem)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -791,5 +825,7 @@
         private System.Windows.Forms.Label label25;
         private System.Windows.Forms.Label textInicio;
         private System.Windows.Forms.MaskedTextBox textCPF;
+        private System.Windows.Forms.PictureBox pictureAviso;
+        private System.Windows.Forms.PictureBox pictureMensagem;
     }
 }
